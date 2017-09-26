@@ -14,6 +14,7 @@
     "lint": "tslint 'src/**/*.ts'",
     "lint:watch": "nodemon --exec npm run lint",
     "cover": "jest --coverage",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
@@ -28,8 +29,7 @@
   "directories": {
     "lib": "lib"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "Jeff Hansen <jeff@jeffijoe.com>",
   "license": "MIT",
   "bugs": {
@@ -42,8 +42,9 @@
   "devDependencies": {
     "@semantic-release/condition-codeship": "^1.1.0",
     "@semantic-release/release-notes-generator": "^3.0.1",
-    "@types/node": "^8.0.26",
     "@types/jest": "^21.1.1",
+    "@types/node": "^8.0.26",
+    "coveralls": "^2.13.1",
     "jest": "^20.0.4",
     "rimraf": "^2.6.1",
     "semantic-release": "^7.0.2",

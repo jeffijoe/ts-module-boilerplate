@@ -1,5 +1,5 @@
 {
-  "name": "module",
+  "name": "tsmodule",
   "version": "0.0.0-semantic",
   "description": "",
   "main": "lib/index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeffijoe/module.git"
+    "url": "https://github.com/jeffijoe/tsmodule.git"
   },
   "files": [
     "lib",
@@ -33,9 +33,9 @@
   "author": "Jeff Hansen <jeff@jeffijoe.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jeffijoe/module/issues"
+    "url": "https://github.com/jeffijoe/tsmodule/issues"
   },
-  "homepage": "https://github.com/jeffijoe/module#readme",
+  "homepage": "https://github.com/jeffijoe/tsmodule#readme",
   "dependencies": {
     "tslib": "^1.7.1"
   },

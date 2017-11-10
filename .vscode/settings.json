@@ -1,11 +1,5 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-  "prettier.bracketSpacing": true,
-  "prettier.eslintIntegration": true,
-  "prettier.singleQuote": true,
-  "prettier.semi": false,
-  "eslint.enable": true,
-  "editor.formatOnPaste": true,
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -16,7 +10,6 @@
     ".idea": true,
     "lib": true,
     "**/*.sublime-*": true,
-    "node_modules": true,
-    ".vscode": true
+    "node_modules": true
   }
 }

@@ -1,2 +1,4 @@
 // Source goes here.
-export function myModule () {}
+export function myModule() {
+  // Do your thing
+}

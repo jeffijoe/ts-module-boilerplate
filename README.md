@@ -1,4 +1,4 @@
-> This is a Node tsmodule boilerplate using TypeScript. 
+> This is a Node module boilerplate using TypeScript. 
 > Remove this block and replace all instances of `tsmodule` with your package name, as well as all instances of `jeffijoe` with your Github username.
 
 # tsmodule
